@@ -1,0 +1,15 @@
+.phrase {
+    max-width: 500px;
+    font-family: 'Tangerine', cursive;
+}
+
+.phrase::before {
+    content:'';
+    border-top: 1px solid goldenrod;
+    border-bottom: 1px solid goldenrod;
+}
+
+a.feature-icon {
+    border-bottom: 0px;
+    cursor: pointer;
+}
